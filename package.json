@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start:server": "node back/server.js",
+    "start": "node back/server.js",
+    "start:server": "nodemon back/server.js",
     "client:dev": "webpack -d --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
