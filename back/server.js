@@ -103,4 +103,6 @@ app.post('/getChampionInfo', (req, res) => {
     
 })
 
-app.listen(3333);
+app.listen((process.env.PORT || 3333), function(){
+  console.log('listening on *:3333');
+});
