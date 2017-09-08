@@ -1,0 +1,42 @@
+* {
+ font-family: "Bodoni MT";
+}
+body {
+    background: #dbdde0;
+}
+.main {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+}
+.title {
+    background: purple;
+    font-size: 25px;
+    color: white;
+    padding-bottom:20px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+}
+.text {
+    padding: 5px;
+    background: white;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.container {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    background: slategray;
+}
+
+.btn {
+  background: #3498db;
+  border-radius: 4px;
+  border: 1px solid black;
+  color: #ffffff;
+  font-size: 10px;
+  padding: 3px 8px 3px 8px;
+  text-decoration: none;
+}
+
